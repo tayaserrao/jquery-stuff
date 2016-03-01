@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>js!</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        $("h1").click(function(){
+          $("div").addClass("GO");
+          $("div").removeClass("STOP");
+
+        });
+
+        $("h2").click(function(){
+          $("div").addClass("STOP");
+
+        })
+
+      });
+    </script>
+
+    <style>
+
+  .GO {
+        width: 800px;
+        height: 800px;
+        background-image: url(http://www.stickylife.com/images/u/4db94fb4c96246038a3777dd8daeaedc-800.png);
+
+}
+.STOP {
+        width: 800px;
+        height: 800px;
+        background-image: url(http://www.stickylife.com/images/u/d69a861b1fb145dd80643b30438d312f-800.png)
+  }
+
+  .go{
+    font-family: Verdana;
+    color: red;
+    font-size: 2em;
+  }
+
+.stop{
+  font-family: Verdana;
+  color: green;
+  font-size: 2em;
+}
+
+  </style>
+
+
+  </head>
+  <body>
+
+    <h1 class="go"> go </p>
+    <h2 class="stop"> stop </p>
+      <h3 class=""
+
+      <div class="image"></div>
+</body>
+</html>
